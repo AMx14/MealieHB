@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2D260F2D64D2D200DECA22 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC2D260E2D64D2C900DECA22 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACFC5A5D2D6431DD0021DB36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFC5A412D6431DA0021DB36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFC5A482D6431DB0021DB36;
+			remoteInfo = Mealie;
+		};
+		ACFC5A672D6431DD0021DB36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFC5A412D6431DA0021DB36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFC5A482D6431DB0021DB36;
+			remoteInfo = Mealie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC2D260E2D64D2C900DECA22 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		ACFC5A492D6431DB0021DB36 /* Mealie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFC5A5C2D6431DD0021DB36 /* MealieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFC5A662D6431DD0021DB36 /* MealieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ACFC5A4B2D6431DB0021DB36 /* Mealie */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Mealie;
+			sourceTree = "<group>";
+		};
+		ACFC5A5F2D6431DD0021DB36 /* MealieTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MealieTests;
+			sourceTree = "<group>";
+		};
+		ACFC5A692D6431DD0021DB36 /* MealieUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MealieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFC5A462D6431DB0021DB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFC5A592D6431DD0021DB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFC5A632D6431DD0021DB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACFC5A402D6431DA0021DB36 = {
+			isa = PBXGroup;
+			children = (
+				AC2D260E2D64D2C900DECA22 /* .gitignore */,
+				ACFC5A4B2D6431DB0021DB36 /* Mealie */,
+				ACFC5A5F2D6431DD0021DB36 /* MealieTests */,
+				ACFC5A692D6431DD0021DB36 /* MealieUITests */,
+				ACFC5A4A2D6431DB0021DB36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFC5A4A2D6431DB0021DB36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC5A492D6431DB0021DB36 /* Mealie.app */,
+				ACFC5A5C2D6431DD0021DB36 /* MealieTests.xctest */,
+				ACFC5A662D6431DD0021DB36 /* MealieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFC5A482D6431DB0021DB36 /* Mealie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFC5A702D6431DD0021DB36 /* Build configuration list for PBXNativeTarget "Mealie" */;
+			buildPhases = (
+				ACFC5A452D6431DB0021DB36 /* Sources */,
+				ACFC5A462D6431DB0021DB36 /* Frameworks */,
+				ACFC5A472D6431DB0021DB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ACFC5A4B2D6431DB0021DB36 /* Mealie */,
+			);
+			name = Mealie;
+			packageProductDependencies = (
+			);
+			productName = Mealie;
+			productReference = ACFC5A492D6431DB0021DB36 /* Mealie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACFC5A5B2D6431DD0021DB36 /* MealieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFC5A732D6431DD0021DB36 /* Build configuration list for PBXNativeTarget "MealieTests" */;
+			buildPhases = (
+				ACFC5A582D6431DD0021DB36 /* Sources */,
+				ACFC5A592D6431DD0021DB36 /* Frameworks */,
+				ACFC5A5A2D6431DD0021DB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFC5A5E2D6431DD0021DB36 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ACFC5A5F2D6431DD0021DB36 /* MealieTests */,
+			);
+			name = MealieTests;
+			packageProductDependencies = (
+			);
+			productName = MealieTests;
+			productReference = ACFC5A5C2D6431DD0021DB36 /* MealieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACFC5A652D6431DD0021DB36 /* MealieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFC5A762D6431DD0021DB36 /* Build configuration list for PBXNativeTarget "MealieUITests" */;
+			buildPhases = (
+				ACFC5A622D6431DD0021DB36 /* Sources */,
+				ACFC5A632D6431DD0021DB36 /* Frameworks */,
+				ACFC5A642D6431DD0021DB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFC5A682D6431DD0021DB36 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ACFC5A692D6431DD0021DB36 /* MealieUITests */,
+			);
+			name = MealieUITests;
+			packageProductDependencies = (
+			);
+			productName = MealieUITests;
+			productReference = ACFC5A662D6431DD0021DB36 /* MealieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFC5A412D6431DA0021DB36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					ACFC5A482D6431DB0021DB36 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					ACFC5A5B2D6431DD0021DB36 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ACFC5A482D6431DB0021DB36;
+					};
+					ACFC5A652D6431DD0021DB36 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ACFC5A482D6431DB0021DB36;
+					};
+				};
+			};
+			buildConfigurationList = ACFC5A442D6431DA0021DB36 /* Build configuration list for PBXProject "Mealie" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACFC5A402D6431DA0021DB36;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ACFC5A4A2D6431DB0021DB36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFC5A482D6431DB0021DB36 /* Mealie */,
+				ACFC5A5B2D6431DD0021DB36 /* MealieTests */,
+				ACFC5A652D6431DD0021DB36 /* MealieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFC5A472D6431DB0021DB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2D260F2D64D2D200DECA22 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFC5A5A2D6431DD0021DB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFC5A642D6431DD0021DB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFC5A452D6431DB0021DB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFC5A582D6431DD0021DB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFC5A622D6431DD0021DB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACFC5A5E2D6431DD0021DB36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFC5A482D6431DB0021DB36 /* Mealie */;
+			targetProxy = ACFC5A5D2D6431DD0021DB36 /* PBXContainerItemProxy */;
+		};
+		ACFC5A682D6431DD0021DB36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFC5A482D6431DB0021DB36 /* Mealie */;
+			targetProxy = ACFC5A672D6431DD0021DB36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACFC5A6E2D6431DD0021DB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACFC5A6F2D6431DD0021DB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ACFC5A712D6431DD0021DB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mealie/Mealie.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mealie/Preview Content\"";
+				DEVELOPMENT_TEAM = 27PR7B2R8D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.akshatmaithani.Mealie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ACFC5A722D6431DD0021DB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mealie/Mealie.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mealie/Preview Content\"";
+				DEVELOPMENT_TEAM = 27PR7B2R8D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.akshatmaithani.Mealie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		ACFC5A742D6431DD0021DB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27PR7B2R8D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.akshatmaithani.MealieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mealie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mealie";
+			};
+			name = Debug;
+		};
+		ACFC5A752D6431DD0021DB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27PR7B2R8D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.akshatmaithani.MealieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mealie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mealie";
+			};
+			name = Release;
+		};
+		ACFC5A772D6431DD0021DB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27PR7B2R8D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.akshatmaithani.MealieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Mealie;
+			};
+			name = Debug;
+		};
+		ACFC5A782D6431DD0021DB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27PR7B2R8D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.akshatmaithani.MealieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Mealie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFC5A442D6431DA0021DB36 /* Build configuration list for PBXProject "Mealie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFC5A6E2D6431DD0021DB36 /* Debug */,
+				ACFC5A6F2D6431DD0021DB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFC5A702D6431DD0021DB36 /* Build configuration list for PBXNativeTarget "Mealie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFC5A712D6431DD0021DB36 /* Debug */,
+				ACFC5A722D6431DD0021DB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFC5A732D6431DD0021DB36 /* Build configuration list for PBXNativeTarget "MealieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFC5A742D6431DD0021DB36 /* Debug */,
+				ACFC5A752D6431DD0021DB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFC5A762D6431DD0021DB36 /* Build configuration list for PBXNativeTarget "MealieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFC5A772D6431DD0021DB36 /* Debug */,
+				ACFC5A782D6431DD0021DB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFC5A412D6431DA0021DB36 /* Project object */;
+}
