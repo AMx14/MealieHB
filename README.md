@@ -28,45 +28,46 @@ MealieHB is a Swift-based iOS application designed to help users plan meals, org
 ## Project Structure
 
 ```
-Mealie/
-├── Mealie/
-│   ├── Models/                      # Data structures
-│   │   ├── Recipe.swift             
-│   │   ├── Ingredient.swift         
-│   │   ├── MealPlan.swift           
-│   │   ├── ShoppingList.swift       
+Mealie/                                  # Root directory of the project
+├── Mealie/                              # Main app module
+│   ├── Models/                          # Data structures representing core entities
+│   │   ├── Recipe.swift                 # Defines the Recipe model (ID, name, ingredients, steps, tags)
+│   │   ├── Ingredient.swift              # Defines Ingredient model (name, quantity, unit)
+│   │   ├── MealPlan.swift                # Defines MealPlan model (recipes mapped to days)
+│   │   ├── ShoppingList.swift            # Represents shopping list items aggregated from meal plans
 │   │
-│   ├── ViewModels/                   # Business logic
-│   │   ├── RecipeViewModel.swift     
-│   │   ├── MealPlannerViewModel.swift
-│   │   ├── ShoppingListViewModel.swift
-│   │   ├── CalorieTrackerViewModel.swift #For further Extension  
+│   ├── ViewModels/                       # Business logic (MVVM pattern)
+│   │   ├── RecipeViewModel.swift         # Manages recipes: CRUD operations, filtering, and validation
+│   │   ├── MealPlannerViewModel.swift    # Handles meal planning logic, assigning recipes to days
+│   │   ├── ShoppingListViewModel.swift   # Generates a shopping list based on meal plans
+│   │   ├── CalorieTrackerViewModel.swift # Placeholder for future calorie tracking feature
 │   │
-│   ├── Views/                        # SwiftUI screens
-│   │   ├── RecipeListView.swift      
-│   │   ├── RecipeDetailView.swift    
-│   │   ├── MealPlannerView.swift     
-│   │   ├── ShoppingListView.swift    
-│   │   ├── AddRecipeView.swift       
+│   ├── Views/                            # SwiftUI screens handling UI interactions
+│   │   ├── RecipeListView.swift          # Displays the list of saved recipes
+│   │   ├── RecipeDetailView.swift        # Shows detailed view of a selected recipe with edit options
+│   │   ├── MealPlannerView.swift         # UI for assigning recipes to meal plans
+│   │   ├── ShoppingListView.swift        # Displays an auto-generated shopping list
+│   │   ├── AddRecipeView.swift           # UI for adding new recipes with form validation
 │   │
-│   ├── Data/                         # Storage & persistence
-│   │   ├── SwiftDataStore.swift      # Swift Data implementation
-│   │   ├── DataStoreProtocol.swift   # Interface for persistence
+│   ├── Data/                             # Handles storage and persistence of app data
+│   │   ├── SwiftDataStore.swift          # Implements data persistence using SwiftData (formerly Core Data)
+│   │   ├── DataStoreProtocol.swift       # Protocol defining the interface for storing/retrieving data
 │   │
-│   ├── Preview Content/              # Assets for SwiftUI previews
-│   │   ├── Preview Assets
-│   │   └── Assets
+│   ├── Preview Content/                  # Assets used for SwiftUI Previews
+│   │   ├── Preview Assets                 # Sample images/icons for UI previews
+│   │   └── Assets                         # App-wide assets like icons, images, colors
 │   │
-│   ├── ContentView.swift             # Main entry SwiftUI view
-│   ├── MealieApp.swift               # Entry point of the app
+│   ├── ContentView.swift                  # Initial screen that loads the main UI
+│   ├── MealieApp.swift                     # Entry point of the app, initializes the app environment
 │
-├── MealieTests/                      # Unit Testing
-│   ├── RecipeViewModelTests.swift    
-│   ├── MealPlannerViewModelTests.swift 
+├── MealieTests/                           # Unit Testing directory
+│   ├── RecipeViewModelTests.swift         # Tests for RecipeViewModel (validations, CRUD, filtering)
+│   ├── MealPlannerViewModelTests.swift    # Tests for MealPlannerViewModel (meal plan logic)
 │
-└── MealieUITests/                    # UI Testing
-    ├── MealieUITests.swift
-    ├── MealieUITestsLaunchTests.swift
+└── MealieUITests/                         # UI Testing directory
+    ├── MealieUITests.swift                # General UI test cases for app interactions
+    ├── MealieUITestsLaunchTests.swift     # Ensures the app launches correctly without crashes
+
 ```
 
 ## Getting Started
