@@ -1,7 +1,9 @@
-# MealieHB - Recipe Organizer with Meal Planning
+# MealieHB - Recipe Organizer with Meal Planning  
+[Demo Video](https://drive.google.com/file/d/1Qe-yq_Mj1_QwmTXcrGsJDYQp3ETzhtsf/view?usp=sharing)  
 
-## Overview
+## Overview  
 MealieHB is a Swift-based iOS application designed to help users plan meals, organize recipes, and generate shopping lists efficiently. It allows users to:
+
 
 - Store and manage recipes
 - Plan meals for different days of the week
