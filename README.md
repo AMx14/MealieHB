@@ -2,30 +2,26 @@
 [Demo Video](https://drive.google.com/file/d/1Qe-yq_Mj1_QwmTXcrGsJDYQp3ETzhtsf/view?usp=sharing)  
 
 ## Overview  
-MealieHB is a Swift-based iOS application designed to help users plan meals, organize recipes, and generate shopping lists efficiently. It allows users to:
 
+MealieHB is an iOS application I developed as part of an assignment. The goal was to create a **recipe organizer with meal planning capabilities** that allows users to **store recipes, plan meals, and generate shopping lists automatically**.  
 
-- Store and manage recipes
-- Plan meals for different days of the week
-- Generate shopping lists based on planned meals
-- Persist data using SwiftData for offline access
-- Export meal plans and recipes as JSON/CSV
+The app is built using **Swift and SwiftUI**, following the **MVVM architecture** for better code organization. Data is stored locally using **SwiftData**, ensuring offline access. Additionally, users can **export and import their meal plans in JSON or CSV format**.  
 
-## Tech Stack
+## Tech Stack  
 
-- **Swift** (SwiftUI for UI, SwiftData for persistence)
-- **MVVM Architecture** for better code organization
-- **SwiftData** for database storage and persistence
-- **GitHub** for version control
+- **Swift** (SwiftUI for UI, SwiftData for persistence)  
+- **MVVM Architecture** for better separation of concerns  
+- **SwiftData** for local storage and offline access  
+- **GitHub** for version control  
 
-## Features
+## Features  
 
-### Core Functionality
-- **Recipe Management:** Add, edit, and delete recipes with ingredients and steps
-- **Meal Planning:** Assign meals to specific days of the week
-- **Shopping List:** Automatically generates a shopping list based on planned meals
-- **Data Persistence:** Saves data locally and reloads on app restart
-- **Export & Import:** Export recipes and meal plans as JSON/CSV
+### Core Functionality  
+- **Recipe Management:** Add, edit, and delete recipes with ingredients and steps  
+- **Meal Planning:** Assign recipes to specific days of the week  
+- **Shopping List:** Automatically generates a list of required ingredients  
+- **Data Persistence:** All data is stored locally and reloads on app restart  
+- **Export & Import:** Supporting exporting recipes and meal plans as JSON/CSV(To be added soon) 
 
 ## Project Structure
 
